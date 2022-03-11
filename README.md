@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PDTreeDL
 Phylodynamics + Tree Encoding + Deep Learning
 =======
@@ -12,6 +11,4 @@ The code provided in ``code/param_inf.py`` uses tree encodings simulated from bi
 
 ``code/output_vis.ipynb`` contains a demo visualization of the 2D latent space representation of tree encodings learned from variational autoencoder, colored by the corresponding parameter values.
 
-<img src="plots/latent_space.png" height="200"/>
-
->>>>>>> 7eff9a781c3cb819a49b0e01c021e15f80b071b3
+An output figure is [here](plots/latent_space.pdf).
