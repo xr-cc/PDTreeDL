@@ -9,6 +9,8 @@ In phylodynamic framework, the evolutionary relationship of disease agents which
 
 The code provided in ``code/param_inf.py`` uses tree encodings simulated from birth death epidemiological model as inputs, and builds a convolutional variational autoencoder-based neural networks to infer three parameters of interest: *basic production number (R_nought)*, *infectious time*, and *transmission rate*. The tree encoding with branch length information shows promising predictive power for the parameters. 
 
-``code/output_vis.ipynb`` contains a demo visualization of the 2D latent space representation of tree encodings learned from variational autoencoder, colored by the corresponding parameter values.
+``code/latent_space_vis_2d.ipynb`` and ``code/latent_space_vis_3d.ipynb`` contains demo visualizations of the 2D and 3D latent space representation of tree encodings learned from variational autoencoder, colored by the corresponding parameter values.
 
-An output figure is [here](plots/latent_space.pdf).
+``code/beta_splitting_output_vis.ipynb`` contains performance plots of beta-splitting classification using DL. 
+
+Output figures are [here](plots/).
