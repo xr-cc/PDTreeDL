@@ -1,8 +1,5 @@
 # PDTreeDL
 Phylodynamics + Tree Encoding + Deep Learning
-=======
-# PDTreeDL
-Phylodynamics + Tree Encoding + Deep Learning
 
 ------------
 In phylodynamic framework, the evolutionary relationship of disease agents which can be obtained form genomic data and represented as trees provides insights on their spatio-temporal population dynamics. In this project, we aim to consolidate the usage of a tree encoding technique with statistical and deep learning frameworks to estimate epidemiological parameters from genomic and surveillance data. Future tasks also include superspreader detection and integration of multiple sources of information into phylodynamics frameworks.
